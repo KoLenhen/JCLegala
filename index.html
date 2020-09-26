@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WayUp Diploma project</title>
+	<meta name="description" content="Дипломный проект WayUp">
+	<meta name="keywords" content="figma, html, html5, css, css3, bootstrap, responsive, design, diploma">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="image/x-icon">
+	<link rel="shortcut icon" href="#" type="image/x-icon">
+	<!-- GO Tags -->
+	<meta property="og:title" content="Legal Advisory Services">
+	<meta property="og:description" content="Diploma Project">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="Legal Advisory Services">
+	<!-- Fonts -->
+	<script src="https://kit.fontawesome.com/963c17c49a.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+	<!-- Bootstrap reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="heading">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-10 col-9">
+						<a href="index.html" class="heading__logo logo d-flex">
+							<p class="logo__abbr">jc</p>
+							<p class="logo__text">Legal Advisory Services</p>
+						</a>
+					</div>
+					<div class="col-lg-6 d-lg-block d-none">
+						<nav class="navigation">					
+							<ul class="heading__navigation navigation d-flex">
+								<li class="navigation__item">
+									<a class="navigation__link" href="index.html">
+										Главная
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="about.html">
+										О компании
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="services.html">
+										Услуги
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="contacts.html">
+										Контакты
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="testimonials.html">
+										Отзывы
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-7 d-md-block d-none">
+						<div class="heading__call d-flex call">
+							<button type="button" class="call__btn btn" data-toggle="modal" data-target="#exampleModal">
+							  <i class="fa fa-phone-alt"></i>
+							</button>
+							<div class="call__text">
+								<p class="call__book">
+									Заказать звонок
+								</p>
+								<a href="tel:+74955672815" class="call__num">
+									+7 (495) 567-28-15
+								</a>
+							</div>
+						</div>					
+					</div>
+					<div class="d-lg-none col-md-1 col-sm-2 col-3">
+						<i class="heading__bars fa fa-bars"></i>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<div class="offer" id="offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="offer__cta m-auto">
+							<p class="offer__change">
+								Вы хотите изменить мир.
+							</p>
+							<h1 class="offer__title">
+								Мы хотим вам помочь.
+							</h1>
+							<p class="offer__text">
+								Мы современная Юридическая фирма, помогающая перспективным стартапам, фрилансерам и малому бизнесу.
+							</p>
+							<button type="button" class="offer__btn btn" data-toggle="modal" data-target="#exampleModal">
+							  Бесплатная консультация
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="target" id="target">
+		<div class="target__bg"></div>
+		<div class="container">
+			<div class="row">				
+				<div class="col-xl-4 col-lg-12">
+					<div class="question">
+						<h2 class="question__title title">
+							<span>
+								Кому мы
+							</span>
+							ПОМОГАЕМ
+						</h2>
+						<p class="question__text">
+							Мы фокусируемся на юридических вопросах, актуальных для успешного современного бизнеса
+						</p>
+					</div>
+				</div>
+				<div class="col-xl-8 col-lg-12">
+					<div class="target__list flex-wrap d-flex justify-content-lg-between justify-content-md-around justify-content-sm-center">
+						<div class="target__item">
+							<img src="img/rocket.png" alt="Стартап взлет" class="target__img">
+							<h3 class="target__title">
+								Стартапам
+							</h3>
+							<p class="target__text">
+								Когда вы будете готовы вывести свой стартап на новый уровень, мы можем оказать вам юридические услуги, чтобы помочь&nbsp;вам&nbsp;расти
+							</p>
+						</div>
+						<div class="target__item">
+							<img src="img/freelance.png" alt="Фрилансе" class="target__img">
+							<h3 class="target__title">
+								Фрилансеру
+							</h3>
+							<p class="target__text">
+								Начать бизнес проще, чем когда-либо. Неважно подрабатываете вы или работаете самостоятельно, мы можем помочь вам сделать все правильно
+							</p>
+						</div>
+						<div class="target__item">
+							<img src="img/brain.png" alt="Малый бизнес" class="target__img">
+							<h3 class="target__title">
+								Малому бизнесу
+							</h3>
+							<p class="target__text">
+								Мы поможем направить ваш бизнес в правильном направлении. Окажем услуги в области договорного, трудового права и многое другое
+							</p>
+						</div>						
+						<button type="button" class="target__btn btn" data-toggle="modal" data-target="#exampleModal">
+							Получить консультацию
+						</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="cases" id="cases">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-7 col-12">
+					<h2 class="cases__title title">
+						<span>
+							Наши
+						</span>
+						Кейсы
+					</h2>
+					<p class="cases__text">
+						Кейсы – это описание конкретной ситуации или случая в определённой сфере юридической практики. Вы можете ознакомиться с конкретными ситуациями, с которыми сталкивались юристы компании JC
+					</p>
+				</div>
+				<div class="col-xl-5 col-12">
+					<div class="cases__buttons reel d-sm-flex">
+						<a href="#" class="cases__btn reel__item">
+							Стартапы
+						</a>
+						<a href="#" class="cases__btn reel__item">
+							Фриланс
+						</a>
+						<a href="#" class="cases__btn reel__item">
+							Малый бизнес
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-6 col-12">					
+					<div class="cases__item d-flex">
+						<div class="cases__bg"></div>
+						<h5 class="cases__subtitle">
+							Взыскание задолженности с&nbsp;дебитора
+						</h5>
+						<div class="cases__wrap">
+							<img src="img/credit.jpg" alt="" class="cases__img">
+							<div class="cases__overlay">
+								<a href="#" class="cases__link read__link">
+									Читать больше
+								</a>
+							</div>
+						</div>										
+					</div>
+				</div>
+				<div class="col-xl-6 col-12">
+					<div class="cases__item d-flex">
+						<div class="cases__bg"></div>
+						<h5 class="cases__subtitle cases__subtitle_reg">
+							Урегулирование налогового спора
+						</h5>
+						<div class="cases__wrap">
+							<img src="img/taxes.jpg" alt="" class="cases__img">
+							<div class="cases__overlay">
+								<a href="#" class="cases__link read__link">
+									Читать больше
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="col-xl-6 col-12">
+					<div class="cases__item d-flex">
+						<div class="cases__bg"></div>
+						<h5 class="cases__subtitle">
+							Представление интересов компании PPD
+						</h5>
+						<div class="cases__wrap">
+							<img src="img/interest.jpg" alt="" class="cases__img">
+							<div class="cases__overlay">
+								<a href="#" class="cases__link read__link">
+									Читать больше
+								</a>
+							</div>
+						</div>					
+					</div>
+				</div>
+				<div class="col-xl-6 col-12">
+					<div class="cases__item d-flex">
+						<div class="cases__bg"></div>
+						<h5 class="cases__subtitle">
+							Вывод денег через текущие платежи
+						</h5>
+						<div class="cases__wrap">
+							<img src="img/payments.jpg" alt="" class="cases__img">
+							<div class="cases__overlay">
+								<a href="#" class="cases__link read__link">
+									Читать больше
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="help" id="help">
+		<div class="container">
+			<div class="row">				
+				<div class="col-lg-7 col-md-12">
+					<div class="help__wrap">
+						<h4 class="help__title">
+						Свяжитесь с нами, чтобы узнать, как&nbsp;мы&nbsp;можем помочь вашему бизнесу
+						</h4>
+						<button type="button" class="help__btn btn" data-toggle="modal" data-target="#exampleModal">
+							Связаться с нами
+						</button>			
+					</div>					
+				</div>
+				<div class="scene help-wrapper" id="scene">
+					<div data-depth="5" class="layer">
+						<img src="img/decor.png" alt="white&blue circles" class="help__decor-first">
+					</div>			
+					<div data-depth="0.2" class="layer">
+						<img src="img/phone.png" alt="cell phone" class="help__phone d-lg-block d-none">
+						</div>	
+					<div data-depth="5" class="layer">
+						<img src="img/decor.png" alt="white&blue circles" class="help__decor-second d-lg-none">
+					</div>						
+				</div>		
+			</div>
+		</div>
+	</section>
+	<section class="news" id="news">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="news__title title">
+						<span>
+							Актуальные
+						</span>
+						Новости
+					</h2>
+					<div class="news__wrapper swiper-container">		
+						<div class="news__arrows justify-content-between d-sm-flex d-none">
+							<div class="swiper-button-next news__arrow"></div>
+							<div class="swiper-button-prev news__arrow"></div>
+						</div>
+						<div class="swiper-wrapper">
+							<div class="news__item swiper-slide">
+								<div class="news__image">
+									<img src="img/news1.jpg" alt="" class="news__img">
+									<div class="news__overlay"></div>
+								</div>
+								<div class="news__date date">
+									13.07.20
+								</div>
+								<h5 class="news__subtitle">
+									Лучшие юридические компании Москвы
+								</h5>
+								<p class="news__text">
+									Лучшие юридические компании Москвы зарабатывают свою репутацию годами. Многие из них существуют более 20 лет, а это серьёзный срок для любой организации.
+								</p>
+								<a href="#" class="news__link read__link">
+									Читать больше
+								</a>							
+							</div>
+							<div class="news__item swiper-slide">
+								<div class="news__image">
+									<img src="img/news2.jpg" alt="" class="news__img">
+									<div class="news__overlay"></div>
+								</div>
+								<div class="news__date date">
+									20.10.20
+								</div>
+								<h5 class="news__subtitle">
+									Что разрешено коллекторам по закону?
+								</h5>
+								<p class="news__text">
+									1 января этого года вступил в силу новый Федеральный закон №230-ФЗ защищающий права физических лиц при возврате задолженности, которая просрочена...
+								</p>
+								<a href="#" class="news__link read__link">
+									Читать больше
+								</a>
+							</div>
+							<div class="news__item swiper-slide">
+								<div class="news__image">
+									<img src="img/news3.jpg" alt="" class="news__img">
+									<div class="news__overlay"></div>
+								</div>
+								<div class="news__date date">
+									05.12.20
+								</div>
+								<h5 class="news__subtitle">
+									Как выбрать юридическую фирму
+								</h5>
+								<p class="news__text">
+									Как выбрать юридическую компанию, которая решит ваши проблемы профессиональным методами, а не добавит новых? – вопрос очень популярный в нашей стране...
+								</p>
+								<a href="#" class="news__link read__link">
+									Читать больше
+								</a>				
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-12">
+					<div class="footer__wrapper">
+						<a href="index.html" class="footer__logo logo d-flex">
+							<p class="logo__abbr">jc</p>
+							<p class="logo__text">Legal Advisory Services</p>
+						</a>
+						<div class="footer__socials socials d-flex">
+							<a href="https://www.facebook.com/" class="socials__item" target="_blank">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="https://www.messenger.com//" class="socials__item" target="_blank">
+								<i class="fab fa-facebook-messenger"></i>
+							</a>
+							<a href="https://www.instagram.com/" class="socials__item" target="_blank">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a href="https://www.youtube.com/" class="socials__item" target="_blank">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</div>
+					</div>					
+				</div>
+				<div class="col-lg-2 col-sm-3 ">
+					<div class="footer__menu">
+						<h6 class="footer__title">
+							Меню
+						</h6>
+						<ul class="menu">
+							<li class="menu__item">
+								<a href="index.html" class="menu__link">
+									Главная
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="about.html" class="menu__link">
+									О компании
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="testimonials.html" class="menu__link">
+									Отзывы
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">
+									Новости
+								</a>
+							</li>
+						</ul>
+					</div>				
+				</div>
+				<div class="col-lg-3 col-sm-9">
+					<div class="footer__contacts contacts">
+						<h6 class="footer__title">
+							Контакты
+						</h6>
+						<div class="contacts__item d-flex">
+							<i class="contacts__icon fa fa-map-marker-alt"></i>
+							<p class="contacts__address footer__text">
+								г. Москва, ул. Бутырская, 62 Z-Plaza, 5-й этаж
+							</p>
+						</div>
+						<div class="contacts__item d-flex">
+							<i class="contacts__icon fa fa-phone-alt"></i>
+							<div class="contacts__wrap">
+								<a href="tel:+74955771811" class="contacts__num d-block">+ 7 (495) 577-18-11</a>
+								<a href="tel:+74955672815" class="contacts__num d-block">+ 7 (495) 567-28-15</a>
+							</div>							
+						</div>
+						<div class="contacts__item d-flex">
+							<i class="contacts__icon fa fa-envelope"></i>
+							<a class="contacts__email" href="mailto:jclegal@gmail.com">JClegal@gmail.com</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<form action="#" class="footer__form">
+						<h6 class="footer__title">
+							Подписаться на рассылку новостей
+						</h6>
+						<input class="footer__input" type="email" name="E-mail" placeholder="Ваш email" required>
+						<button class="footer__btn btn" type="submit">
+							Подписаться
+						</button>
+					</form>
+				</div>
+				<div class="col-12">
+					<p class="footer__text footer__special">
+						Разработано специально для коучинга WAYUP
+					</p>
+					<p class="footer__text footer__rights">
+						&copy; 2007-2020 Все права защищены
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- popup modal form -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <form action="#" class="popup__form">
+			 <button type="button" class="popup__close close" data-dismiss="modal" id="popup__close close"></button>
+				<h4 class="popup__title">
+					Отправьте заявку
+				</h4>
+				<p class="popup__text">
+					И наши специалисты свяжутся с вами ближайшее время для оказания профессиональной помощи!
+				</p>
+				<h5 class="popup__subtitle">
+					Имя
+				</h5>
+				<input type="text" name="name" class="popup__input" required>
+				<h5 class="popup__subtitle">
+					Телефон
+				</h5>
+				<input type="tel" name="phone" class="popup__input" required>
+				<button class="popup__btn btn d-block" type="submit">
+					Отправить
+				</button>
+			</form>
+	    </div>
+	  </div>
+	</div>
+
+<!-- dropdown menu -->
+	<div class="dropdown d-none" id="dropdown">
+		<a href="#" class="dropdown__close close" id="dropdown__close close"></a>
+		<a href="index.html" class="dropdown__logo logo d-flex">
+			<p class="logo__abbr">jc</p>
+			<p class="logo__text">Legal Advisory Services</p>
+		</a>
+		<nav class="navigation">					
+			<ul class="dropdown__navigation navigation">
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="index.html">
+						Главная
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="about.html">
+						О компании
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="services.html">
+						Услуги
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="contacts.html">
+						Контакты
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="testimonials.html">
+						Отзывы
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="dropdown__call d-flex call">
+			<button type="button" class="call__btn btn" data-toggle="modal" data-target="#exampleModal">
+			 	<i class="fa fa-phone-alt"></i>
+			</button>
+			<div class="call__text">
+				<p class="call__book">
+					Заказать звонок
+				</p>
+				<a href="tel:+74955672815" class="call__num">
+					+7 (495) 567-28-15
+				</a>
+			</div>
+		</div>	
+	</div>	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+							

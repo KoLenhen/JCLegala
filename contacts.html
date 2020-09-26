@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WayUp Diploma project</title>
+	<meta name="description" content="Дипломный проект WayUp">
+	<meta name="keywords" content="figma, html, html5, css, css3, bootstrap, responsive, design, diploma">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="image/x-icon">
+	<link rel="shortcut icon" href="#" type="image/x-icon">
+	<!-- GO Tags -->
+	<meta property="og:title" content="Legal Advisory Services">
+	<meta property="og:description" content="Diploma Project">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="Legal Advisory Services">
+	<!-- Fonts -->
+	<script src="https://kit.fontawesome.com/963c17c49a.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+	<!-- Yandex map -->
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=15e586b6-9e0e-4163-b84e-6eaec1f97d60&lang=ru_RU" type="text/javascript">
+    </script>	
+	<!-- Bootstrap reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="heading">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-10 col-9">
+						<a href="index.html" class="heading__logo logo d-flex">
+							<p class="logo__abbr">jc</p>
+							<p class="logo__text">Legal Advisory Services</p>
+						</a>
+					</div>
+					<div class="col-lg-6 d-lg-block d-none">
+						<nav class="navigation">				
+							<ul class="heading__navigation navigation d-flex">
+								<li class="navigation__item">
+									<a class="navigation__link" href="index.html">
+										Главная
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="about.html">
+										О компании
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="services.html">
+										Услуги
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="contacts.html">
+										Контакты
+									</a>
+								</li>
+								<li class="navigation__item">
+									<a class="navigation__link" href="testimonials.html">
+										Отзывы
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-7 d-md-block d-none">
+						<div class="heading__call d-flex call">
+							<button type="button" class="call__btn btn" data-toggle="modal" data-target="#exampleModal">
+							  <i class="fa fa-phone-alt"></i>
+							</button>
+							<div class="call__text">
+								<p class="call__book">
+									Заказать звонок
+								</p>
+								<a href="tel:+74955672815" class="call__num">
+									+7 (495) 567-28-15
+								</a>
+							</div>
+						</div>				
+					</div>
+					<div class="d-lg-none col-md-1 col-sm-2 col-3">
+						<i class="heading__bars fa fa-bars"></i>
+					</div>				
+				</div>
+			</div>
+		</div>
+		<div class="subheading" id="subheading">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="subheading__wrapper align-items-center d-sm-flex">
+							<h4 class="subheading__title">
+								Контакты
+							</h4>
+							<div class="subheading__breadcrumbs breadcrumbs">
+								<a href="index.html" class="breadcrumbs__link breadcrumbs__link_prev">
+									Главная
+								</a>
+								<a href="about.html" class="breadcrumbs__link breadcrumbs__link_last">
+									Контакты
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="mapping">
+		<div class="container-fluid px-0">
+			<div class="map" id="map"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="map__content">						
+						<div class="map__contact contact">
+							<h6 class="contact__title">
+								Как нас найти
+							</h6>
+							<div class="contact__item d-flex">
+								<i class="contact__icon fa fa-map-marker-alt"></i>
+								<p class="contact__address">
+									г. Москва, ул. Бутырская, 62 Z-Plaza, 5-й этаж
+								</p>
+							</div>
+							<div class="contact__item d-flex">
+								<i class="contact__icon fa fa-phone-alt"></i>
+								<div class="contact__wrap">
+									<a href="tel:+74955771811" class="contact__num d-block">+ 7 (495) 577-18-11</a>
+									<a href="tel:+74955672815" class="contact__num d-block">+ 7 (495) 567-28-15</a>
+								</div>							
+							</div>
+							<div class="contact__item d-flex">
+								<i class="contact__icon fa fa-envelope"></i>
+								<a class="contact__email" href="mailto:jclegal@gmail.com">JClegal@gmail.com</a>
+							</div>
+							<p class="contact__time">
+								Мы работаем с 9:00 до 22:00 в рабочие дни
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-12">
+					<div class="footer__wrapper">
+						<a href="index.html" class="footer__logo logo d-flex">
+							<p class="logo__abbr">jc</p>
+							<p class="logo__text">Legal Advisory Services</p>
+						</a>
+						<div class="footer__socials socials d-flex">
+							<a href="https://www.facebook.com/" class="socials__item">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="https://www.messenger.com//" class="socials__item">
+								<i class="fab fa-facebook-messenger"></i>
+							</a>
+							<a href="https://www.instagram.com/" class="socials__item">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a href="https://www.youtube.com/" class="socials__item">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</div>
+					</div>					
+				</div>
+				<div class="col-lg-2 col-sm-3 ">
+					<div class="footer__menu">
+						<h6 class="footer__title">
+							Меню
+						</h6>
+						<ul class="menu">
+							<li class="menu__item">
+								<a href="index.html" class="menu__link">
+									Главная
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="about.html" class="menu__link">
+									О компании
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="testimonials.html" class="menu__link">
+									Отзывы
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">
+									Новости
+								</a>
+							</li>
+						</ul>
+					</div>				
+				</div>
+				<div class="col-lg-3 col-sm-9">
+					<div class="footer__contacts contacts">
+						<h6 class="footer__title">
+							Контакты
+						</h6>
+						<div class="contacts__item d-flex">
+							<i class="contacts__icon fa fa-map-marker-alt"></i>
+							<p class="contacts__address footer__text">
+								г. Москва, ул. Бутырская, 62 Z-Plaza, 5-й этаж
+							</p>
+						</div>
+						<div class="contacts__item d-flex">
+							<i class="contacts__icon fa fa-phone-alt"></i>
+							<div class="contacts__wrap">
+								<a href="tel:+74955771811" class="contacts__num d-block">+ 7 (495) 577-18-11</a>
+								<a href="tel:+74955672815" class="contacts__num d-block">+ 7 (495) 567-28-15</a>
+							</div>							
+						</div>
+						<div class="contacts__item d-flex">
+							<i class="contacts__icon fa fa-envelope"></i>
+							<a class="contacts__email" href="mailto:jclegal@gmail.com">JClegal@gmail.com</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<form action="#" class="footer__form">
+						<h6 class="footer__title">
+							Подписаться на рассылку новостей
+						</h6>
+						<input class="footer__input" type="email" name="E-mail" placeholder="Ваш email" required>
+						<button class="footer__btn btn" type="submit">
+							Подписаться
+						</button>
+					</form>
+				</div>
+				<div class="col-12">
+					<p class="footer__text footer__special">
+						Разработано специально для коучинга WAYUP
+					</p>
+					<p class="footer__text footer__rights">
+						&copy; 2007-2020 Все права защищены
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- popup modal form -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <form action="#" class="popup__form">
+			 <button type="button" class="popup__close close" data-dismiss="modal" id="popup__close close"></button>
+				<h4 class="popup__title">
+					Отправьте заявку
+				</h4>
+				<p class="popup__text">
+					И наши специалисты свяжутся с вами ближайшее время для оказания профессиональной помощи!
+				</p>
+				<h5 class="popup__subtitle">
+					Имя
+				</h5>
+				<input type="text" name="name" class="popup__input" required>
+				<h5 class="popup__subtitle">
+					Телефон
+				</h5>
+				<input type="tel" name="phone" class="popup__input" required>
+				<button class="popup__btn btn d-block" type="submit">
+					Отправить
+				</button>
+			</form>
+	    </div>
+	  </div>
+	</div>
+	
+<!-- dropdown menu -->
+	<div class="dropdown d-none" id="dropdown">
+		<a href="#" class="dropdown__close close" id="dropdown__close close"></a>
+		<a href="index.html" class="dropdown__logo logo d-flex">
+			<p class="logo__abbr">jc</p>
+			<p class="logo__text">Legal Advisory Services</p>
+		</a>
+		<nav class="navigation">					
+			<ul class="dropdown__navigation navigation">
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="index.html">
+						Главная
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="about.html">
+						О компании
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="services.html">
+						Услуги
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="contacts.html">
+						Контакты
+					</a>
+				</li>
+				<li class="dropdown__item">
+					<a class="dropdown__link" href="testimonials.html">
+						Отзывы
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="dropdown__call d-flex call">
+			<button type="button" class="call__btn btn" data-toggle="modal" data-target="#exampleModal">
+			 	<i class="fa fa-phone-alt"></i>
+			</button>
+			<div class="call__text">
+				<p class="call__book">
+					Заказать звонок
+				</p>
+				<a href="tel:+74955672815" class="call__num">
+					+7 (495) 567-28-15
+				</a>
+			</div>
+		</div>	
+	</div>	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
